@@ -1,6 +1,6 @@
-# Software für die Verwaltung von Schulen
+# ✅ Software für die Verwaltung von Schulen
 
-## Beschreibung
+## ✅ Beschreibung
 
 Mit dieser Webanwendung können Sie : 
 
