@@ -98,7 +98,7 @@ if (isset($_SESSION['login'])) {
           <li class="dropdown"> <a href="#" class="dropdown-toggle" aria-expanded="false" role="button"
               data-toggle="dropdown">Anwesenheit<span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="planning.php">Kontrolle der Planung</a></li>
+              <!-- <li><a href="planning.php">Kontrolle der Planung</a></li> -->
               <li><a href="presencecontrol.php">Anwesenheitskontrolle</a></li>
               <li><a href="presenceclass.php">Anwesenheits pro Klass</a></li>
               <li><a href="presencestudent.php">Anwesenheits pro Schuler</a></li>

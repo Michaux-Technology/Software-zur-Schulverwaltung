@@ -252,7 +252,7 @@ include 'connexion.php';
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <p>Copyright © 2017 Valéry-Jérôme Michaux. All rights reserved.</p>
+        <p><a href="https://github.com/michaux4/SchoolManagementSoftware" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="width:40px;height:40px;"></a> Copyright &copy; 2017 Val&eacute;ry-J&eacute;r&ocirc;me Michaux. All rights reserved. </p>
         </div>
       </div>
     </div>
