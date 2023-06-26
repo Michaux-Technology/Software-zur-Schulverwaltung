@@ -1,4 +1,4 @@
-# ✅ Schulverwaltungssoftware
+# ✅ Schulverwaltungssoftware OpenSource
 
 ## ✅ Beschreibung
 
