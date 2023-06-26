@@ -1,14 +1,26 @@
-# SchoolManagementSoftware
+# Software für die Verwaltung von Schulen
 
-## Description
+## Beschreibung
 
+Mit dieser Webanwendung können Sie : 
 
+- Die Abwesenheiten von Schülern verwalten. 
+(mit oder ohne E-Mail-Versand)
+- Hausarbeiten verwalten
+- Noten verwalten
+- Notenübersichten verwalten
+- Verwalten Sie die Einschreibungen. 
 
+Die Software besteht aus zwei Bildschirmen: 
+- Eltern, 
+- Lehrer
 
+Die Software ist relativ gut geschützt: 
+- Starke Verschlüsselung der Passwörter
+- Einfaches Speichern per Mausklick, damit die Daten nicht verloren gehen,
+- Visualisierung von Anmeldeversuchen  
 
-
-
-Software für die Verwaltung von Schulen
+## Recht an der Software
 
 School Management Software wurde von Valery-Jerome Michaux entwickelt, einem Dozenten und Lehrer für Französisch als Fremdsprache und Softwareexperten.
 
@@ -22,8 +34,13 @@ Diese Software steht unter einer Open-Source-Lizenz mit Einschränkungen zur Ver
 
 Valery-Jerome Michaux haftet nicht für eventuelle Datenverluste, Programmierfehler oder Sicherheitsprobleme.
 
+## Verwendete Technologie
+
+- HTML
+- PHP8
+- MySQL
 
 
-installiert Version: 2.4.0
+Aktuelle Version: 2.4.0
 Made in Germany
 Valery-Jerome Michaux
