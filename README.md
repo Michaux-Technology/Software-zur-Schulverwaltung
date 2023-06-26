@@ -1,4 +1,4 @@
-# ✅ Software für die Verwaltung von Schulen
+# ✅ Schulverwaltungssoftware
 
 ## ✅ Beschreibung
 
