@@ -43,5 +43,5 @@ Valery-Jerome Michaux haftet nicht für eventuelle Datenverluste, Programmierfeh
 
 Aktuelle Version: 2.4.0<br>
 Made in Germany<br>
-Valery-Jerome Michaux<br>
+<b>Valery-Jerome Michaux</b><br>
 michaux@free.fr
