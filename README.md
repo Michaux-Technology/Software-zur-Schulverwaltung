@@ -37,9 +37,10 @@ Valery-Jerome Michaux haftet nicht für eventuelle Datenverluste, Programmierfeh
 ## Verwendete Technologie
 
 - HTML
+- JavaScript
 - PHP8
 - MySQL
-
+- Bootstrap
 
 Aktuelle Version: 2.4.0<br>
 Made in Germany<br>
