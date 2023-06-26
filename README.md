@@ -41,6 +41,7 @@ Valery-Jerome Michaux haftet nicht für eventuelle Datenverluste, Programmierfeh
 - MySQL
 
 
-Aktuelle Version: 2.4.0
-Made in Germany
-Valery-Jerome Michaux
+Aktuelle Version: 2.4.0<br>
+Made in Germany<br>
+Valery-Jerome Michaux<br>
+michaux@free.fr
