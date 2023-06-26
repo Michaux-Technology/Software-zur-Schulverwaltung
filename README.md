@@ -58,6 +58,7 @@ EMAIL : michaux@magenta.de
 1. Legen Sie die Dateien auf dem Webserver unter /htdocs ab.
 
 2. Erstellen Sie in MySql die Datenbank "school". 
+Wenn Sie eine Verbindungseinstellung ändern müssen, dann öffnen Sie die Datei /connexion.php
 
 3. Führen Sie dann die Datei /setup/school.sql aus, um die Tabellen zu platzieren, die Sie für den Betrieb benötigen. 
 
