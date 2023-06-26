@@ -1,4 +1,13 @@
 # SchoolManagementSoftware
+
+## Description
+
+
+
+
+
+
+
 Software für die Verwaltung von Schulen
 
 School Management Software wurde von Valery-Jerome Michaux entwickelt, einem Dozenten und Lehrer für Französisch als Fremdsprache und Softwareexperten.
