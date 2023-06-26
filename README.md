@@ -50,3 +50,18 @@ michaux@magenta.de
 ## ✅ Installations- und Schulungsservice
 
 EMAIL : michaux@magenta.de
+
+## ✅ Installationshandbuch
+
+1. Legen Sie die Dateien auf dem Webserver unter /htdocs ab.
+
+2. Erstellen Sie in MySql die Datenbank "school". 
+
+3. Führen Sie dann die Datei /setup/school.sql aus, um die Tabellen zu platzieren, die Sie für den Betrieb benötigen. 
+
+Ihre Umgebung ist nun funktionsfähig. 
+
+4. Verwenden Sie den Benutzernamen "Admin" und das Passwort "Admin", um auf die Funktionen zuzugreifen. 
+
+Viel Erfolg!
+
