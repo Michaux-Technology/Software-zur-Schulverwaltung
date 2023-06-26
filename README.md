@@ -9,7 +9,8 @@ Mit dieser Webanwendung können Sie :
 - Hausarbeiten verwalten
 - Noten verwalten
 - Notenübersichten verwalten
-- Verwalten Sie die Einschreibungen. 
+- Verwalten Sie die Einschreibungen.
+- Verwaltung von Nachrichten bei der Anmeldung von Schülern und Lehrern
 
 Die Software besteht aus zwei Bildschirmen: 
 - Eltern, 
