@@ -29,7 +29,7 @@ Diese Software steht unter einer Open-Source-Lizenz mit Einschränkungen zur Ver
 - Jede Verbesserung des Quellcodes muss uns mitgeteilt werden, damit wir die Verbesserungen an die Gemeinschaft weitergeben können.
 - Die Software darf nur durch Herunterladen aus unserem Downloadbereich zugänglich gemacht werden.
 - Der Name der Software und des Erstellers dürfen nicht verändert oder gelöscht werden und müssen daher für die Nutzer immer sichtbar bleiben.
-- Die Installation muss entweder von der Schule selbst für den Eigenbedarf oder von einer von Valery-Jérôme Michaux autorisierten Person durchgeführt werden. Alle diesbezüglichen Anfragen können an folgende Adresse gesendet werden: michaux@free.fr.
+- Die Installation muss entweder von der Schule selbst für den Eigenbedarf oder von einer von Valery-Jérôme Michaux autorisierten Person durchgeführt werden. Alle diesbezüglichen Anfragen können an folgende Adresse gesendet werden: michaux@magenda.de
 - Pro Schule ist nur ein Exemplar zulässig.
 
 Valery-Jerome Michaux haftet nicht für eventuelle Datenverluste, Programmierfehler oder Sicherheitsprobleme.
@@ -45,8 +45,8 @@ Valery-Jerome Michaux haftet nicht für eventuelle Datenverluste, Programmierfeh
 Aktuelle Version: 2.4.0<br>
 Made in Germany<br>
 <b>Valery-Jerome Michaux</b><br>
-michaux@free.fr
+michaux@magenta.de
 
 ## Installations- und Schulungsservice
 
-EMAIL : michaux@free.fr
+EMAIL : michaux@magenta.de
