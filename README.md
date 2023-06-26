@@ -42,6 +42,8 @@ Valery-Jerome Michaux haftet nicht für eventuelle Datenverluste, Programmierfeh
 - MySQL
 - Bootstrap
 
+Die Software funktioniert perfekt mit XAMPP
+
 Aktuelle Version: 2.4.0<br>
 Made in Germany<br>
 <b>Valery-Jerome Michaux</b><br>
