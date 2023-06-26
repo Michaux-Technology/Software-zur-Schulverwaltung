@@ -1,6 +1,6 @@
-# Software für die Verwaltung von Schulen
+# ✅ Schulverwaltungssoftware OpenSource
 
-## Beschreibung
+## ✅ Beschreibung
 
 Mit dieser Webanwendung können Sie : 
 
@@ -9,7 +9,8 @@ Mit dieser Webanwendung können Sie :
 - Hausarbeiten verwalten
 - Noten verwalten
 - Notenübersichten verwalten
-- Verwalten Sie die Einschreibungen. 
+- Verwalten Sie die Einschreibungen.
+- Verwaltung von Nachrichten bei der Anmeldung von Schülern und Lehrern
 
 Die Software besteht aus zwei Bildschirmen: 
 - Eltern, 
@@ -20,7 +21,7 @@ Die Software ist relativ gut geschützt:
 - Einfaches Speichern per Mausklick, damit die Daten nicht verloren gehen,
 - Visualisierung von Anmeldeversuchen  
 
-## Recht an der Software
+## ✅ Recht an der Software
 
 School Management Software wurde von Valery-Jerome Michaux entwickelt, einem Dozenten und Lehrer für Französisch als Fremdsprache und Softwareexperten.
 
@@ -34,7 +35,7 @@ Diese Software steht unter einer Open-Source-Lizenz mit Einschränkungen zur Ver
 
 Valery-Jerome Michaux haftet nicht für eventuelle Datenverluste, Programmierfehler oder Sicherheitsprobleme.
 
-## Verwendete Technologie
+## ✅ Verwendete Technologie
 
 - HTML
 - JavaScript
@@ -42,11 +43,29 @@ Valery-Jerome Michaux haftet nicht für eventuelle Datenverluste, Programmierfeh
 - MySQL
 - Bootstrap
 
+Die Software funktioniert perfekt mit XAMPP
+
 Aktuelle Version: 2.4.0<br>
 Made in Germany<br>
 <b>Valery-Jerome Michaux</b><br>
 michaux@magenta.de
 
-## Installations- und Schulungsservice
+## ✅ Installations- und Schulungsservice
 
 EMAIL : michaux@magenta.de
+
+## ✅ Installationshandbuch
+
+1. Legen Sie die Dateien auf dem Webserver unter /htdocs ab.
+
+2. Erstellen Sie in MySql die Datenbank "school". 
+Wenn Sie eine Verbindungseinstellung ändern müssen, dann öffnen Sie die Datei /connexion.php
+
+3. Führen Sie dann die Datei /setup/school.sql aus, um die Tabellen zu platzieren, die Sie für den Betrieb benötigen. 
+
+Ihre Umgebung ist nun funktionsfähig. 
+
+4. Verwenden Sie den Benutzernamen "Admin" und das Passwort "Admin", um auf die Funktionen zuzugreifen. 
+
+Viel Erfolg!
+
