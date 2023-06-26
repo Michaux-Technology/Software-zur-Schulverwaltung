@@ -46,3 +46,7 @@ Aktuelle Version: 2.4.0<br>
 Made in Germany<br>
 <b>Valery-Jerome Michaux</b><br>
 michaux@free.fr
+
+## Installations- und Schulungsservice
+
+EMAIL : michaux@free.fr
