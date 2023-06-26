@@ -20,7 +20,7 @@ Die Software ist relativ gut geschützt:
 - Einfaches Speichern per Mausklick, damit die Daten nicht verloren gehen,
 - Visualisierung von Anmeldeversuchen  
 
-## Recht an der Software
+## ✅ Recht an der Software
 
 School Management Software wurde von Valery-Jerome Michaux entwickelt, einem Dozenten und Lehrer für Französisch als Fremdsprache und Softwareexperten.
 
@@ -34,7 +34,7 @@ Diese Software steht unter einer Open-Source-Lizenz mit Einschränkungen zur Ver
 
 Valery-Jerome Michaux haftet nicht für eventuelle Datenverluste, Programmierfehler oder Sicherheitsprobleme.
 
-## Verwendete Technologie
+## ✅ Verwendete Technologie
 
 - HTML
 - JavaScript
@@ -47,6 +47,6 @@ Made in Germany<br>
 <b>Valery-Jerome Michaux</b><br>
 michaux@magenta.de
 
-## Installations- und Schulungsservice
+## ✅ Installations- und Schulungsservice
 
 EMAIL : michaux@magenta.de
