@@ -1,6 +1,6 @@
 # ✅ Schulverwaltungssoftware OpenSource
 
-## Länder: 🇩🇪 🇦🇹 
+## Staaten: 🇩🇪 🇦🇹 
 
 ## ✅ Beschreibung
 
