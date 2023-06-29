@@ -123,7 +123,7 @@ include 'menuhead.php';
 					</select>
 
 					&nbsp;</td>
-				<td><input name="b2" type="submit" value="Suchen" id="b2"></td>
+				<td><input name="b2" type="submit" class="btn btn-success" value="Suchen" id="b2"></td>
 			</tr>
 			<tr>
 				<td>&nbsp;</td>
@@ -260,7 +260,7 @@ AND e.course='" . addslashes($_POST['c4']) . "'");
 						<tr>
 							<td>
 								<?php if (isset($_POST['b2']) or isset($_POST['b3']) or isset($_POST['submit'])) { ?>
-									<center><input name="b3" type="submit" value="Aktualisieren" id="b3">
+									<center><input name="b3" type="submit" class="btn btn-success" value="Aktualisieren" id="b3">
 									<?php } ?>
 								</center>
 							</td>

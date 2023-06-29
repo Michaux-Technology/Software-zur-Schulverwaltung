@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Erstellungszeit: 26. Jun 2023 um 16:25
+-- Erstellungszeit: 29. Jun 2023 um 22:41
 -- Server-Version: 10.4.28-MariaDB
 -- PHP-Version: 8.2.4
 
@@ -223,8 +223,8 @@ INSERT INTO `course` (`code`, `name`, `coef`, `coursegroup`) VALUES
 ('DE02', 'Deutsch Mündlich', 0.60, 'DE'),
 ('EN01', 'Englisch schreiben', 0.40, 'EN'),
 ('EN02', 'Englisch Mündlich', 0.60, 'EN'),
-('FR01', 'Französisch schreiben', 0.40, 'FR'),
-('FR02', 'Französisch Mündlich', 0.60, 'FR'),
+('FR01', 'FranzÃ¶sisch schreiben', 0.40, 'FR'),
+('FR02', 'FranzÃ¶sisch Mündlich', 0.60, 'FR'),
 ('GEO', 'Geografie', 1.00, ''),
 ('GES', 'Geschichte', 1.00, ''),
 ('MATH', 'Mathematik', 1.00, ''),
@@ -254,7 +254,7 @@ CREATE TABLE `coursegroup` (
 INSERT INTO `coursegroup` (`code`, `name`) VALUES
 ('DE', 'Deutsch'),
 ('EN', 'Englisch'),
-('FR', 'Französisch'),
+('FR', 'FranzÃ¶sisch'),
 ('WAHL', 'Wahlunterricht');
 
 -- --------------------------------------------------------
@@ -299,6 +299,31 @@ CREATE TABLE `homework` (
   `homework` text NOT NULL,
   `code` int(30) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Tabellenstruktur für Tabelle `hour`
+--
+
+CREATE TABLE `hour` (
+  `code` int(30) NOT NULL,
+  `hour` varchar(4) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Daten für Tabelle `hour`
+--
+
+INSERT INTO `hour` (`code`, `hour`) VALUES
+(1, '1.'),
+(2, '2.'),
+(3, '3.'),
+(4, '4.'),
+(5, '5.'),
+(6, '6.'),
+(7, '7.'),
+(8, '8.');
 
 -- --------------------------------------------------------
 
@@ -370,11 +395,13 @@ INSERT INTO `message` (`code`, `message`, `message2`) VALUES
 CREATE TABLE `planning` (
   `code` int(11) NOT NULL,
   `classe` varchar(30) NOT NULL,
-  `year` int(5) NOT NULL,
+  `year` varchar(30) NOT NULL,
   `semester` varchar(100) NOT NULL,
-  `course` int(11) NOT NULL,
+  `hour` varchar(2) NOT NULL,
+  `course` varchar(30) NOT NULL,
+  `room` varchar(30) NOT NULL,
   `day` varchar(30) NOT NULL,
-  `hour` varchar(2) NOT NULL
+  `prof` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
@@ -412,6 +439,13 @@ CREATE TABLE `profcourse` (
   `code` int(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
+--
+-- Daten für Tabelle `profcourse`
+--
+
+INSERT INTO `profcourse` (`year`, `semester`, `prof`, `course`, `classe`, `code`) VALUES
+('2022/2023', '2. Schulhalbjahr', 'Admin', 'BIO', '10a', 2);
+
 -- --------------------------------------------------------
 
 --
@@ -445,6 +479,27 @@ CREATE TABLE `registration` (
   `student` int(30) NOT NULL,
   `classerequired` varchar(3) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Tabellenstruktur für Tabelle `room`
+--
+
+CREATE TABLE `room` (
+  `nummer` varchar(30) NOT NULL,
+  `course` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Daten für Tabelle `room`
+--
+
+INSERT INTO `room` (`nummer`, `course`) VALUES
+('1.24', 'English'),
+('1.26', 'Deutsch'),
+('2.23', 'Informatique'),
+('2.25', 'Informatique');
 
 -- --------------------------------------------------------
 
@@ -1227,6 +1282,12 @@ ALTER TABLE `homework`
   ADD PRIMARY KEY (`code`);
 
 --
+-- Indizes für die Tabelle `hour`
+--
+ALTER TABLE `hour`
+  ADD PRIMARY KEY (`code`);
+
+--
 -- Indizes für die Tabelle `interface`
 --
 ALTER TABLE `interface`
@@ -1387,7 +1448,7 @@ ALTER TABLE `coefwork`
 -- AUTO_INCREMENT für Tabelle `entry`
 --
 ALTER TABLE `entry`
-  MODIFY `code` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `code` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT für Tabelle `generation`
@@ -1399,7 +1460,13 @@ ALTER TABLE `generation`
 -- AUTO_INCREMENT für Tabelle `homework`
 --
 ALTER TABLE `homework`
-  MODIFY `code` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
+  MODIFY `code` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=43;
+
+--
+-- AUTO_INCREMENT für Tabelle `hour`
+--
+ALTER TABLE `hour`
+  MODIFY `code` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT für Tabelle `level`
@@ -1417,7 +1484,7 @@ ALTER TABLE `message`
 -- AUTO_INCREMENT für Tabelle `planning`
 --
 ALTER TABLE `planning`
-  MODIFY `code` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `code` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=105;
 
 --
 -- AUTO_INCREMENT für Tabelle `presence`
@@ -1429,7 +1496,7 @@ ALTER TABLE `presence`
 -- AUTO_INCREMENT für Tabelle `profcourse`
 --
 ALTER TABLE `profcourse`
-  MODIFY `code` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `code` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT für Tabelle `reference`
@@ -1441,31 +1508,31 @@ ALTER TABLE `reference`
 -- AUTO_INCREMENT für Tabelle `registration`
 --
 ALTER TABLE `registration`
-  MODIFY `code` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `code` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT für Tabelle `security`
 --
 ALTER TABLE `security`
-  MODIFY `code` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=380;
+  MODIFY `code` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=444;
 
 --
 -- AUTO_INCREMENT für Tabelle `student`
 --
 ALTER TABLE `student`
-  MODIFY `code` int(30) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `code` int(30) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT für Tabelle `test`
 --
 ALTER TABLE `test`
-  MODIFY `code` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `code` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT für Tabelle `testline`
 --
 ALTER TABLE `testline`
-  MODIFY `code` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `code` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT für Tabelle `worktype`

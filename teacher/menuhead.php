@@ -105,6 +105,17 @@ if (isset($_SESSION['login'])) {
             </ul>
           </li>
 
+          </li>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" aria-expanded="false" role="button"
+              data-toggle="dropdown">Stundenplans<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="planning.php">Üblicher Stundenplans</a></li>
+              <li><a href=#>Bestätigung des Wochenplans</a></li>
+              <li><a href=#>Stundenplans pro Klasse</a></li>
+              <li><a href=#>Stundenplans pro Woche</a></li>
+            </ul>
+          </li>
+
 
           <li class="dropdown"> <a href="#" class="dropdown-toggle" aria-expanded="false" role="button"
               data-toggle="dropdown">Parameterdarstellungen<span class="caret"></span></a>

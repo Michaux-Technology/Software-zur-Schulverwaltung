@@ -113,7 +113,7 @@ if ($_SESSION['Prof'] == '1') {
 
 		</table>
 		<br>
-		<center><input name="b3" type="submit" value="Abbrechen" id="b3">&nbsp;&nbsp;<input name="b2" type="submit"
+		<center><input name="b3" type="submit" class="btn btn-success" value="Abbrechen" id="b3">&nbsp;&nbsp;<input name="b2" type="submit" class="btn btn-success"
 				value="Bestätigen" id="b2"></center>
 
 

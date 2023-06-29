@@ -100,7 +100,7 @@ include 'menuhead.php';
 						?>
 					</select>
 					&nbsp;</td>
-				<td><input name="b2" type="submit" value="Suchen" id="b2"></td>
+				<td><input name="b2" type="submit" class="btn btn-success" value="Suchen" id="b2"></td>
 			</tr>
 		</table>
 		<br>

@@ -185,7 +185,7 @@ include 'connexion.php';
 
 <p>Valery-Jerome Michaux haftet nicht für eventuelle Datenverluste, Programmierfehler oder Sicherheitsprobleme.</p>
 <br><br>
-      installiert Version: 2.4.0<br>
+      installiert Version: 2.4.1<br>
       Made in Germany<br>
       <b>Valery-Jerome Michaux</b>
   </div>
