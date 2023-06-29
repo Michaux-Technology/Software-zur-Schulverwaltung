@@ -1,5 +1,7 @@
 # ✅ Schulverwaltungssoftware OpenSource
 
+## Kompatibel mit den Ländern: 🇩🇪 🇦🇹 
+
 ## ✅ Beschreibung
 
 Mit dieser Webanwendung können Sie : 
@@ -49,6 +51,11 @@ Aktuelle Version: 2.4.0<br>
 Made in Germany<br>
 <b>Valery-Jerome Michaux</b><br>
 michaux@magenta.de
+
+## ✅ DSGVO
+Die Informationen über die DSGVO sind von Ihrer Website aus zu verwalten, da das School Management System über einen Link von der Schule aus erreichbar ist.
+
+Cookies werden nur verwendet, um die Software zu betreiben und ihre Sicherheit zu verwalten. 
 
 ## ✅ Installations- und Schulungsservice
 
