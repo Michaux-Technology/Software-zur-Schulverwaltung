@@ -70,8 +70,10 @@ $ecole = mysqli_fetch_array($result);
     </div>
   </div>
 </footer>
-<script src="js/jquery-1.11.2.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+
+<script src="../js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 </body>
 
 </html>

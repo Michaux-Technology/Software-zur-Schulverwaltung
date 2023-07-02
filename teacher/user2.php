@@ -107,14 +107,16 @@ if ($_SESSION['Prof'] == '1') {
 				<td>
 					<div id='myText' style="visibility:hidden;">E-Mail:</div>
 				</td>
-				<td><input type="text" value="<?php echo addslashes($ligne[5]); ?>" name="email" id="email"
+				<td><input type="text" value="<?php if ($_SESSION['i'] == '0') {
+					echo addslashes($ligne[5]);
+				} ?>" name="email" id="email"
 						style="visibility:hidden; width:200px;" /></td>
 			</tr>
 
 		</table>
 		<br>
-		<center><input name="b3" type="submit" class="btn btn-success" value="Abbrechen" id="b3">&nbsp;&nbsp;<input name="b2" type="submit" class="btn btn-success"
-				value="Bestätigen" id="b2"></center>
+		<center><input name="b3" type="submit" class="btn btn-success" value="Abbrechen" id="b3">&nbsp;&nbsp;<input
+				name="b2" type="submit" class="btn btn-success" value="Bestätigen" id="b2"></center>
 
 
 
