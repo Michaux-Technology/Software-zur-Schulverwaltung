@@ -28,6 +28,8 @@ Die Software ist relativ gut geschützt:
 CC BY-NC-ND 4.0 DEED
 https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.de
 
+Für kommerzielle Zwecke kontaktieren Sie uns bitte, um unsere Preise zu erfahren:
+michaux@magenta.de
 
 ## ✅ Verwendete Technologie
 
