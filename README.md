@@ -69,7 +69,7 @@ Ihre Umgebung ist nun funktionsfähig.
 4. Verwenden Sie den Benutzernamen "Admin" und das Passwort "Admin", um auf die Funktionen zuzugreifen. 
 
 
-## ✅ Helfen Sie uns
+## ✅ Machen Sie eine Spende
 https://github.com/sponsors/Michaux-Technology?frequency=recurring&sponsor=Michaux-Technology
 
 Viel Erfolg!
