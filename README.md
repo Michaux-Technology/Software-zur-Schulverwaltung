@@ -70,7 +70,8 @@ Ihre Umgebung ist nun funktionsfähig.
 
 
 ## ✅ Machen Sie eine Spende
-https://github.com/sponsors/Michaux-Technology?frequency=recurring&sponsor=Michaux-Technology
+
+[Click here to make a donation.](https://github.com/sponsors/Michaux-Technology)https://github.com/sponsors/Michaux-Technology
 
 Viel Erfolg!
 
