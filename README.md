@@ -32,7 +32,7 @@ The version available on Github is:
 
 To receive a version:
 - [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/deed.de)
-- ACT CC BY 4.0
+- [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.de)
 
 Please contact us:
 michaux@magenta.de
