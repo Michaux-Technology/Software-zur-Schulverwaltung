@@ -31,7 +31,7 @@ https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.de
 To receive a version :
 - CC BY-ND 4.0
 - ACT CC BY 4.0
-Please contact us:
+  Please contact us:
 michaux@magenta.de
 
 ## ✅ Verwendete Technologie
