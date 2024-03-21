@@ -71,7 +71,7 @@ Ihre Umgebung ist nun funktionsfähig.
 
 ## ✅ Machen Sie eine Spende
 
-[Click here to make a donation.](https://github.com/sponsors/Michaux-Technology)https://github.com/sponsors/Michaux-Technology
+[Click here to make a donation.](https://github.com/sponsors/Michaux-Technology)
 
 Viel Erfolg!
 
