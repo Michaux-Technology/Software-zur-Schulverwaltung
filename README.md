@@ -1,8 +1,10 @@
-# ✅ Schulverwaltungssoftware OpenSource
+# ✅ Schulverwaltungssoftware - Eine Open-Source-Lösung für die Verwaltung von Schulen
 
 ## Kompatibel mit den Ländern: 🇩🇪 🇦🇹 
 
 ## ✅ Beschreibung
+
+Entdecken Sie diese Open-Source-Lösung zur Schulverwaltung, entwickelt von Michaux-Technology.
 
 Mit dieser Webanwendung können Sie : 
 
