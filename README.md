@@ -36,7 +36,7 @@ Um eine Lizenz zu erhalten:
 - [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/deed.de)
 - [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.de)
   
-Die richtige Spende machen
+Die richtige [Spende](https://github.com/sponsors/Michaux-Technology) machen
 
 ## ✅ Verwendete Technologie
 
