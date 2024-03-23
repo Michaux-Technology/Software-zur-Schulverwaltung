@@ -27,16 +27,16 @@ Die Software ist relativ gut geschützt:
 
 ## ✅ Recht an der Software
 
-The version available on Github is: 
+Die auf Github verfügbare Version ist: 
 
 [CC BY-NC-ND 4.0 DEED](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.de)
 
 
-To receive a version:
+Um eine Version zu erhalten:
 - [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/deed.de)
 - [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.de)
 
-Please contact us:
+Bitte kontaktieren Sie uns:
 michaux@magenta.de
 
 ## ✅ Verwendete Technologie
@@ -79,7 +79,7 @@ Ihre Umgebung ist nun funktionsfähig.
 
 ## ✅ Machen Sie eine Spende
 
-[Click here to make a donation.](https://github.com/sponsors/Michaux-Technology)
+[Klicken Sie hier, um eine Spende zu tätigen.](https://github.com/sponsors/Michaux-Technology)
 
 🙏🙏🙏
 
