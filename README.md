@@ -27,12 +27,12 @@ Die Software ist relativ gut geschützt:
 
 ## ✅ Recht an der Software
 
-Die auf Github verfügbare Version ist: 
+Die auf Github verfügbare Lizenz ist: 
 
 [CC BY-NC-ND 4.0 DEED](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.de)
 
 
-Um eine Version zu erhalten:
+Um eine Lizenz zu erhalten:
 - [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/deed.de)
 - [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.de)
 
