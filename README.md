@@ -36,51 +36,22 @@ Um eine Lizenz zu erhalten:
 - [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/deed.de)
 - [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.de)
   
-Die richtige [Spende](https://github.com/sponsors/Michaux-Technology) machen
+Faire le bon [don](https://github.com/sponsors/Michaux-Technology)
 
 ## ✅ Verwendete Technologie
 
-- HTML
-- JavaScript
-- PHP8
-- MySQL
-- Bootstrap
+- React.js
+- Node
 
-Die Software funktioniert perfekt mit XAMPP
-
-Aktuelle Version: 2.4.0<br>
-Made in Germany<br>
-<b>Valery-Jerome Michaux</b><br>
-michaux@magenta.de
-
-## ✅ DSGVO
-Die Informationen über die DSGVO sind von Ihrer Website aus zu verwalten, da das School Management System über einen Link von der Schule aus erreichbar ist.
-
-Cookies werden nur verwendet, um die Software zu betreiben und ihre Sicherheit zu verwalten. 
-
-## ✅ Installations- und Schulungsservice
+## ✅ Nous contacter
 
 EMAIL : michaux@magenta.de
 
-## ✅ Installationshandbuch
-
-1. Legen Sie die Dateien auf dem Webserver unter /htdocs ab.
-
-2. Erstellen Sie in MySql die Datenbank "school". 
-Wenn Sie eine Verbindungseinstellung ändern müssen, dann öffnen Sie die Datei /connexion.php
-
-3. Führen Sie dann die Datei /setup/school.sql aus, um die Tabellen zu platzieren, die Sie für den Betrieb benötigen. 
-
-Ihre Umgebung ist nun funktionsfähig. 
-
-4. Verwenden Sie den Benutzernamen "Admin" und das Passwort "Admin", um auf die Funktionen zuzugreifen. 
-
-
-## ✅ Machen Sie eine Spende
+## ✅ Faire un don
 
 [Klicken Sie hier, um eine Spende zu tätigen.](https://github.com/sponsors/Michaux-Technology)
 
 🙏🙏🙏
 
-Viel Erfolg!
+Bon courage!
 
