@@ -47,9 +47,9 @@ Faire le bon [don](https://github.com/sponsors/Michaux-Technology)
 
 EMAIL : michaux@magenta.de
 
-## ✅ Faire un don
+## ✅ Eine Spende machen
 
-[Klicken Sie hier, um eine Spende zu tätigen.](https://github.com/sponsors/Michaux-Technology)
+Die richtige [Spende](https://github.com/sponsors/Michaux-Technology) machen
 
 🙏🙏🙏
 
