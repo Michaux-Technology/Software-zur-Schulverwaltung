@@ -53,5 +53,5 @@ Die richtige [Spende](https://github.com/sponsors/Michaux-Technology) machen
 
 🙏🙏🙏
 
-Bon courage!
+Viel Erfolg!
 
