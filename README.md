@@ -40,8 +40,9 @@ Faire le bon [don](https://github.com/sponsors/Michaux-Technology)
 
 ## ✅ Verwendete Technologie
 
-- React.js
-- Node
+- PHP
+- JavaScript
+- HTML
 
 ## ✅ Nous contacter
 
