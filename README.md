@@ -4,26 +4,23 @@
 
 ## ✅ Beschreibung
 
-Entdecken Sie diese Open-Source-Lösung zur Schulverwaltung, entwickelt von Michaux-Technology.
+Die von Michaux-Technology entwickelte Schulverwaltungssoftware bietet eine umfassende und leistungsstarke Open-Source-Lösung für die effiziente Verwaltung von Schulen. Diese hochfunktionale Webanwendung ermöglicht Schulen die Vereinfachung und Automatisierung ihrer Verwaltungsprozesse und bietet gleichzeitig eine optimale Erfahrung für Schüler, Lehrer und Eltern.
 
-Mit dieser Webanwendung können Sie : 
+Mit dieser Schulverwaltungslösung können Schulen effektiv mit Abwesenheiten umgehen, indem sie Informationen zu Abwesenheiten erfassen, automatische Benachrichtigungen an Eltern senden und detaillierte Berichte generieren. Lehrer können auch leicht auf Abwesenheitsinformationen für jeden Schüler zugreifen, um angemessene Maßnahmen zur Unterstützung ihres schulischen Erfolgs zu ergreifen.
 
-- Die Abwesenheiten von Schülern verwalten. 
-(mit oder ohne E-Mail-Versand)
-- Hausarbeiten verwalten
-- Noten verwalten
-- Notenübersichten verwalten
-- Verwalten Sie die Einschreibungen.
-- Verwaltung von Nachrichten bei der Anmeldung von Schülern und Lehrern
+Neben der Abwesenheitsverwaltung bietet diese Software auch erweiterte Funktionen zur Hausaufgabenverwaltung. Lehrer können online Hausaufgaben erstellen und zuweisen, Fristen festlegen und den Fortschritt der Schüler verfolgen. Schüler können ihre Hausaufgaben online einreichen und Lehrer können sie bewerten und direkt im System Feedback geben. Dies erleichtert die Kommunikation und Zusammenarbeit zwischen Lehrern und Schülern und vereinfacht den Bewertungsprozess.
 
-Die Software besteht aus zwei Bildschirmen: 
-- Eltern, 
-- Lehrer
+Die Notenverwaltung wird ebenfalls durch diese Software vereinfacht. Lehrer können die Noten der Schüler für jede Bewertung erfassen, Durchschnittswerte automatisch berechnen und detaillierte Schulzeugnisse generieren. Eltern können online auf die Zeugnisse zugreifen, um den akademischen Fortschritt ihrer Kinder nahtlos verfolgen zu können.
 
-Die Software ist relativ gut geschützt: 
-- Starke Verschlüsselung der Passwörter
-- Einfaches Speichern per Mausklick, damit die Daten nicht verloren gehen,
-- Visualisierung von Anmeldeversuchen  
+Was die Anmeldeverwaltung betrifft, bietet diese Lösung einen vereinfachten und effizienten Prozess. Schulen können Anmeldeanfragen verwalten, erforderliche Informationen sammeln, Überprüfungen durchführen und Eltern über Zulassungsentscheidungen informieren. Dies ermöglicht eine reibungslose Anmeldungsabwicklung, spart Zeit und verbessert die Erfahrung der Eltern.
+
+Die Kommunikation zwischen Schule, Lehrern, Schülern und Eltern wird durch diese Software ebenfalls erleichtert. Lehrer und Administratoren können Nachrichten und Benachrichtigungen an Schüler und Eltern senden, um wichtige Informationen schnell zu übermitteln, über bevorstehende schulische Veranstaltungen zu kommunizieren und die Zusammenarbeit zu erleichtern.
+
+Was die Sicherheit betrifft, legt diese Software großen Wert auf den Schutz sensibler Daten. Passwörter werden sicher verschlüsselt, um die Vertraulichkeit der Informationen zu gewährleisten. Darüber hinaus werden regelmäßige Sicherungsmaßnahmen ergriffen, um Datenverluste zu vermeiden. Bei verdächtigen Anmeldeversuchen werden Warnungen angezeigt, um potenziell bösartige Aktivitäten zu melden.
+
+Technologisch gesehen basiert diese Software auf einer Kombination von PHP, JavaScript und HTML und bietet somit eine reaktionsfähige Benutzeroberfläche und eine nahtlose Benutzererfahrung. Die modulare Architektur ermöglicht eine einfache Anpassung an die spezifischen Anforderungen jeder Schule.
+
+Zusammenfassend ist die Schulverwaltungssoftware von Michaux-Technology eine umfassende und leistungsstarke Plattform, die Schulen dabei unterstützt, ihre Verwaltungsabläufe effizient zu verwalten und die Kommunikation zwischen Lehrern, Schülern und Eltern zu vereinfachen. Mit ihren fortschrittlichen Funktionen, erhöhter Sicherheit und benutzerfreundlichen Oberfläche ist diese Software ein unverzichtbares Werkzeug für moderne Bildungseinrichtungen.
 
 ## ✅ Recht an der Software
 
